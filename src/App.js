@@ -9,7 +9,6 @@ import Login from "./components/log-in.component";
 import WishList from "./components/wish-list.component";
 import Cart from "./components/cart.component";
 import ContactUs from "./components/contact-us.component";
-import QueryPage from "./components/querypage.component";
 
 
 
