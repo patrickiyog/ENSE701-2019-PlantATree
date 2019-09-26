@@ -5,9 +5,11 @@ export default class TreesList extends Component {
     render() {
         return(
             <section id="Trees Preview">
-                <img
+
+                <img id="MoenyTree"
                     src="https://www.ikea.com/PIAimages/0121010_PE277826_S5.JPG?f=xxl"
                     style={{width: 200, height: 200, position: 'absolute', top: 100, left: 300}}
+                    class="img-fluid" alt="money tree"
                 />
                 <p style={{position: 'absolute', top: 320, left: 350}}>
                     Money Tree
