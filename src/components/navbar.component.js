@@ -1,32 +1,43 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import './navbar-styles.css';
 
 export default class Navbar extends Component {
 
   render() {
+
     return (
-      <nav className="navbar navbar-dark bg-dark navbar-expand-lg">
-        <Link to="/" className="navbar-brand">Tree list</Link>
-        <div className="collpase navbar-collapse">
-        <ul className="navbar-nav mr-auto">
-          <li className="navbar-item">
-          <Link to="/wishList" className="nav-link">Wish list</Link>
-          </li>
-          <li className="navbar-item">
-          <Link to="/cart" className="nav-link">Cart</Link>
-          </li>
-          <li className="navbar-item">
-          <Link to="/register-user" className="nav-link">Register</Link>
-          </li>
-          <li className="navbar-item">
-          <Link to="/login" className="nav-link">Login</Link>
-          </li>
-          <li className="navbar-item">
-          <Link to="/contactUs" className="nav-link">Contact Us</Link>
-          </li>
-        </ul>
-        </div>
-      </nav>
+      <div>
+        <nav>
+          <div className="title-container">
+            <h1>Plant A Tree</h1>
+          </div>
+          <hr />
+          <div>
+            <ul className="nav-links">
+              <li>
+                <Link to="/">TREES</Link>
+              </li>
+              <li>
+                <Link to="/wishList" >WISH LIST</Link>
+              </li>
+              <li>
+                <Link to="/cart">CART</Link>
+              </li>
+              <li>
+                <Link to="/register-user">REGISTER</Link>
+              </li>
+              <li>
+                <Link to="/login">LOGIN</Link>
+              </li>
+              <li>
+                <Link to="/contactUs">CONTACT US</Link>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <hr />
+      </div>
     );
   }
 }
