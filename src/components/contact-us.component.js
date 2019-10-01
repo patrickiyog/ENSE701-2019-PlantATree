@@ -14,7 +14,7 @@ export default class ContactUs extends Component {
                     />
                     
                     <div className="title-container">
-                        <h4>Contact the PlantATree Team!</h4>
+                        <h4>Contact The PlantATree Team!</h4>
                     </div>
 
                     <div class="card-body" height={600} width={400}>
