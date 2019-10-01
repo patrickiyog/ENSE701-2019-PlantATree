@@ -6,18 +6,22 @@ export default class ContactUs extends Component {
     render() {
         return(
             <section id = "contact card">
-                <div className="card">
+                <div className="title-container">
                     <img 
                         src="https://apairandasparediy.com/wp-content/uploads/2016/07/APAS_Plant-Guide_Featured-Image.jpg" 
                         height={180}
                         width={200}
                     />
+                    
+                    <div className="title-container">
+                        <h4>Contact the PlantATree Team!</h4>
+                    </div>
 
                     <div class="card-body" height={600} width={400}>
-                        <h4>Contact the PlantATree Team!</h4>
-                        <p>Office Hours: 9:00am - 5:00pm</p>
-                        <p>Email: contact@plantatree.co.nz</p>
-                        <p>Mobile: 021 937 5927</p>
+                        
+                        <h6>Office Hours: 9:00am - 5:00pm</h6>
+                        <h6>Email: contact@plantatree.co.nz</h6>
+                        <h6>Mobile: 021 937 5927</h6>
                         
                     </div>
                 </div>
