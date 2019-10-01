@@ -5,7 +5,16 @@ export default class Cart extends Component {
     render() {
     
         return(
+            
             <section id="payment-and-shipping">
+
+                <div className="title-container">
+                    <h3> Purchase Summary</h3>
+                </div>
+                <div className="card">
+                    
+                    
+                </div>
 
                 <div className="title-container">
 
