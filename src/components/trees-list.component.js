@@ -37,54 +37,54 @@ export default class TreesList extends Component {
                     ]}
                 />
                 </div>
-                {/* <img id="MoenyTree"
+                <img id="MoenyTree"
                     src="https://www.ikea.com/PIAimages/0121010_PE277826_S5.JPG?f=xxl"
-                    style={{ width: 200, height: 200, position: 'absolute', top: 200, left: 300 }}
+                    style={{ width: 200, height: 200, position: 'absolute', top: 200, left: 450 }}
                     class="img-fluid" alt="money tree"
                 />
-                <p style={{ position: 'absolute', top: 420, left: 350 }}>
+                <p style={{ position: 'absolute', top: 420, left: 500 }}>
                     Money Tree
                 </p>
 
                 <img
                     src="https://www.ikea.com/PIAimages/0121010_PE277826_S5.JPG?f=xxl"
-                    style={{ width: 200, height: 200, position: 'absolute', top: 200, left: 600 }}
+                    style={{ width: 200, height: 200, position: 'absolute', top: 200, left: 750 }}
                 />
-                <p style={{ position: 'absolute', top: 420, left: 650 }}>
+                <p style={{ position: 'absolute', top: 420, left: 800 }}>
                     Money Tree
                 </p>
 
                 <img
                     src="https://www.ikea.com/PIAimages/0121010_PE277826_S5.JPG?f=xxl"
-                    style={{ width: 200, height: 200, position: 'absolute', top: 200, left: 900 }}
+                    style={{ width: 200, height: 200, position: 'absolute', top: 200, left: 1050 }}
                 />
-                <p style={{ position: 'absolute', top: 420, left: 950 }}>
+                <p style={{ position: 'absolute', top: 420, left: 1100 }}>
                     Money Tree
                 </p>
 
                 <img
                     src="https://www.ikea.com/PIAimages/0121010_PE277826_S5.JPG?f=xxl"
-                    style={{ width: 200, height: 200, position: 'absolute', top: 470, left: 300 }}
+                    style={{ width: 200, height: 200, position: 'absolute', top: 470, left: 450 }}
                 />
-                <p style={{ position: 'absolute', top: 690, left: 350 }}>
+                <p style={{ position: 'absolute', top: 690, left: 500 }}>
                     Money Tree
                 </p>
 
                 <img
                     src="https://www.ikea.com/PIAimages/0121010_PE277826_S5.JPG?f=xxl"
-                    style={{ width: 200, height: 200, position: 'absolute', top: 470, left: 600 }}
+                    style={{ width: 200, height: 200, position: 'absolute', top: 470, left: 750 }}
                 />
-                <p style={{ position: 'absolute', top: 690, left: 650 }}>
+                <p style={{ position: 'absolute', top: 690, left: 800 }}>
                     Money Tree
                 </p>
 
                 <img
                     src="https://www.ikea.com/PIAimages/0121010_PE277826_S5.JPG?f=xxl"
-                    style={{ width: 200, height: 200, position: 'absolute', top: 470, left: 900 }}
+                    style={{ width: 200, height: 200, position: 'absolute', top: 470, left: 1050 }}
                 />
-                <p style={{ position: 'absolute', top: 690, left: 950 }}>
+                <p style={{ position: 'absolute', top: 690, left: 1100 }}>
                     Money Tree
-                </p> */}
+                </p>
             </section>
 
         )
