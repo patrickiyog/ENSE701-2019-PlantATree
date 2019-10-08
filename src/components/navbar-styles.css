@@ -15,6 +15,7 @@
     overflow: hidden;
 }
 
+
 .nav-links li {
     margin-left: 30px;
     margin-right: 30px;
@@ -22,12 +23,12 @@
 }
 
 a {
-    font-family: 'Red Hat Display', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
     color: #4caf50;
 }
 
 a:hover {
-    font-family: 'Red Hat Display', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
     text-decoration: none;
     color: #1b5e20;
     transition: ease-in 0.4s;

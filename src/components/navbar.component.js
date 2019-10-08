@@ -10,7 +10,7 @@ export default class Navbar extends Component {
       <div>
         <nav>
           <div className="title-container">
-            <h1>Plant A Tree</h1>
+            <h1>Plant A Tree</h1>
           </div>
           <hr />
           <div>
@@ -19,7 +19,7 @@ export default class Navbar extends Component {
                 <Link to="/">TREES</Link>
               </li>
               <li>
-                <Link to="/wishList" >WISH LIST</Link>
+                <Link to="/wishList" >WISH LIST</Link>
               </li>
               <li>
                 <Link to="/cart">CART</Link>
@@ -31,7 +31,7 @@ export default class Navbar extends Component {
                 <Link to="/login">LOGIN</Link>
               </li>
               <li>
-                <Link to="/contactUs">CONTACT US</Link>
+                <Link to="/contactUs">CONTACT US</Link>
               </li>
             </ul>
           </div>

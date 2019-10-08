@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import FilterTreeBar from './filter-tree-bar.component';
 
 export default class TreesList extends Component {
 
@@ -6,8 +7,37 @@ export default class TreesList extends Component {
         return (
 
             <section id="Trees Preview">
-                
-                <img id="MoenyTree"
+                <div style={{margin: '16px', position: 'relative'}}>
+                Tree Category:
+                <FilterTreeBar 
+                    items={[
+                        { id: 1, value: "Fruit Tree" },
+                        { id: 2, value: "Hedge" },
+                        { id: 3, value: "Evergreen" },
+                        { id: 4, value: "NZ Native" },
+                        { id: 5, value: "Gum Tree" },
+                        { id: 6, value: "Palm Tree" },
+                        { id: 7, value: "Hardwood" }
+                    ]}
+
+                />    
+                </div>
+                <br />
+                <div style={{margin: '16px', position: 'relative'}}>
+                Price:
+                <FilterTreeBar 
+                    items={[
+                        { id: 1, value: "$1.00 - $5.00" },
+                        { id: 2, value: "$5.00 - $10.00" },
+                        { id: 3, value: "$10.00 - $20.00" },
+                        { id: 4, value: "$20.00 - $30.00" },
+                        { id: 5, value: "$30.00 - $40.00" },
+                        { id: 6, value: "$40.00 - $50.00" },
+                        { id: 7, value: "$50.00 - $60.00" }
+                    ]}
+                />
+                </div>
+                {/* <img id="MoenyTree"
                     src="https://www.ikea.com/PIAimages/0121010_PE277826_S5.JPG?f=xxl"
                     style={{ width: 200, height: 200, position: 'absolute', top: 200, left: 300 }}
                     class="img-fluid" alt="money tree"
@@ -54,10 +84,11 @@ export default class TreesList extends Component {
                 />
                 <p style={{ position: 'absolute', top: 690, left: 950 }}>
                     Money Tree
-                </p>
+                </p> */}
             </section>
 
         )
 
     }
+    
 }
