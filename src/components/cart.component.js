@@ -8,12 +8,18 @@ export default class Cart extends Component {
             
             <section id="payment-and-shipping">
 
+            
                 <div className="title-container">
                     <h3> Purchase Summary</h3>
                 </div>
+
                 <div className="card">
-                    
-                    
+                    <h5>Your Cart Items:</h5>
+                    <h1></h1>
+                    <h1></h1>
+                    <h1></h1>
+                    <h1></h1>
+                    <h1></h1>
                 </div>
 
                 <div className="title-container">
@@ -24,22 +30,29 @@ export default class Cart extends Component {
 
                 </div>
 
-                <h6>How Would You Like To Receive Your Order?</h6>
+                <div className="card">
 
-                <div class="custom-control custom-radio custom-control-inline">
-                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input"/>
-                    <label class="custom-control-label" for="customRadioInline1">Delivery</label>
+                    <h6>How Would You Like To Receive Your Order?</h6>
+
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input"/>
+                        <label class="custom-control-label" for="customRadioInline1">Delivery</label>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="customRadioInline2" name="customRadioInline2" class="custom-control-input"/>
+                        <label class="custom-control-label" for="customRadioInline2"> Pick-Up Instore</label>
+                    </div>
+
                 </div>
-                <div class="custom-control custom-radio custom-control-inline">
-                    <input type="radio" id="customRadioInline2" name="customRadioInline2" class="custom-control-input"/>
-                    <label class="custom-control-label" for="customRadioInline2"> Pick-Up Instore</label>
+
+
+                <div className="title-container">
+                    <h4>Delivery Details</h4>
                 </div>
               
 
                 <div className="card">
-                    <div className="title-container">
-                        <h4>Delivery Details</h4>
-                    </div>
+                   
                     
                     <div className="card-body">
                         <form>
