@@ -48,6 +48,7 @@ export default class Cart extends Component {
 
                 <div className="title-container">
                     <h4>Delivery Details</h4>
+                    <p>note that a $10 delivery fee will be applied to the overall order / same day delivery for orders placed before 12pm*</p>
                 </div>
               
 
@@ -99,10 +100,15 @@ export default class Cart extends Component {
                     </div>
                 </div>
 
-                <div className="card">
-                    <div className="title-container">
+                
+
+                <div className="title-container">
                         <h4>Pick Up Details</h4>
-                    </div>
+                        <p>same day pick-up for orders placed before 12pm* </p>
+                </div>
+
+                <div className="card">
+                    
                     
                     <div className="card-body">
                         <form>
@@ -128,7 +134,16 @@ export default class Cart extends Component {
                     </div>
                 </div>
 
-            </section>    
+               <footer>
+                   <p></p>
+                   <p>Terms and Conditions</p>
+                   <p> * delivery: please allow 2-3 business days for delivery if the order does not satisfy same day delivery. Same day delivery applies if PlantATree has the product in stock.</p>
+                   <p> * pick-up: please allow 1-2 business days for in-store pickup if the order does not satisfy same day pick-up conditions. Same day pick-up applies if PlantATree has the products in stock. </p>
+               </footer>
+
+            </section>  
+            
+           
         )
         
     }
